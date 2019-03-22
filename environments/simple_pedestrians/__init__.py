@@ -1,0 +1,1 @@
+from environments.simple_pedestrians.stationary_pedestrians_env import StationaryPedestriansEnv

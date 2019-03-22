@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nodes>
+
+
+
+
+ <node id="c" x="0.00" y="0.00" type="unregulated" shape="0.00,0.00 0.00,0.00 0.00,0.00 0.00,0.00"/>
+ <node id="ne" x="10.00" y="10.00" type="unregulated" shape="10.00,10.00 10.00,10.00 10.00,10.00 10.00,10.00"/>
+ <node id="se" x="10.00" y="-10.00" type="unregulated" shape="10.00,-10.00 10.00,-10.00 10.00,-10.00 10.00,-10.00"/>
+ <node id="sw" x="-10.00" y="-10.00" type="unregulated" shape="-10.00,-10.00 -10.00,-10.00 -10.00,-10.00 -10.00,-10.00"/>
+ <node id="nw" x="-10.00" y="10.00" type="unregulated" shape="-10.00,10.00 -10.00,10.00 -10.00,10.00 -10.00,10.00"/>
+
+ <node id="wc1" x="-15.00" y="-10.00" type="unregulated" shape="-15.00,-10.00 -15.00,-10.00 -15.00,-10.00 -15.00,-10.00"/>
+ <node id="wc2" x="-20.00" y="-10.00" type="unregulated" shape="-20.00,-10.00 -20.00,-10.00 -20.00,-10.00 -20.00,-10.00"/>
+ <node id="wc3" x="-25.00" y="-10.00" type="unregulated" shape="-25.00,-10.00 -25.00,-10.00 -25.00,-10.00 -25.00,-10.00"/>
+ <node id="wc4" x="-60.00" y="-10.00" type="unregulated" shape="-60.00,-10.00 -60.00,-10.00 -60.00,-10.00 -60.00,-10.00"/>
+
+ <node id="cw1" x="-15.00" y="10.00" type="unregulated" shape="-15.00,10.00 -15.00,10.00 -15.00,10.00 -15.00,10.00"/>
+ <node id="cw2" x="-20" y="10.00" type="unregulated" shape="-20.00,10.00 -20.00,10.00 -20.00,10.00 -20.00,10.00"/>
+ <node id="cw3" x="-25" y="10.00" type="unregulated" shape="-25.00,10.00 -25.00,10.00 -25.00,10.00 -25.00,10.00"/>
+ <node id="cw4" x="-60.00" y="10.00" type="unregulated" shape="-60.00,10.00 -60.00,10.00 -60.00,10.00 -60.00,10.00"/>
+
+ <node id="ec1" x="15.00" y="10.00" type="unregulated" shape="15.00,10.00 15.00,10.00 15.00,10.00 15.00,10.00"/>
+ <node id="ec2" x="20" y="10.00" type="unregulated" shape="20.00,10.00 20.00,10.00 20.00,10.00 20.00,10.00"/>
+ <node id="ec3" x="25" y="10.00" type="unregulated" shape="25.00,10.00 25.00,10.00 25.00,10.00 25.00,10.00"/>
+ <node id="ec4" x="60.00" y="10.00" type="unregulated" shape="60.00,10.00 60.00,10.00 60.00,10.00 60.00,10.00"/>
+
+
+ <node id="ce1" x="15.00" y="-10.00" type="unregulated" shape="15.00,-10.00 15.00,-10.00 15.00,-10.00 15.00,-10.00"/>
+ <node id="ce2" x="20.00" y="-10.00" type="unregulated" shape="20.00,-10.00 20.00,-10.00 20.00,-10.00 20.00,-10.00"/>
+ <node id="ce3" x="25.00" y="-10.00" type="unregulated" shape="25.00,-10.00 25.00,-10.00 25.00,-10.00 25.00,-10.00"/>
+ <node id="ce4" x="60.00" y="-10.00" type="unregulated" shape="60.00,-10.00 60.00,-10.00 60.00,-10.00 60.00,-10.00"/>
+
+ <node id="nc1" x="-10.00" y="15.00" type="unregulated" shape="-10.00,15.00 -10.00,15.00 -10.00,15.00 -10.00,15.00"/>
+ <node id="nc2" x="-10.00" y="20.00" type="unregulated" shape="-10.00,20.00 -10.00,20.00 -10.00,20.00 -10.00,20.00" />
+ <node id="nc3" x="-10.00" y="25.00" type="unregulated" shape="-10.00,25.00 -10.00,25.00 -10.00,25.00 -10.00,25.00" />
+ <node id="nc4" x="-10.00" y="60.00" type="unregulated" shape="-10.00,60.00 -10.00,60.00 -10.00,60.00 -10.00,60.00" />
+
+ <node id="cn1" x="10.00" y="15.00" type="unregulated" shape="10.00,15.00 10.00,15.00 10.00,15.00 10.00,15.00" />
+ <node id="cn2" x="10.00" y="20.00" type="unregulated" shape="10.00,20.00 10.00,20.00 10.00,20.00 10.00,20.00" />
+ <node id="cn3" x="10.00" y="25.00" type="unregulated" shape="10.00,25.00 10.00,25.00 10.00,25.00 10.00,25.00" />
+ <node id="cn4" x="10.00" y="60.00" type="unregulated" shape="10.00,60.00 10.00,60.00 10.00,60.00 10.00,60.00" />
+
+ <node id="sc1" x="10.00" y="-15.00" type="unregulated" shape="10.00,-15.00 10.00,-15.00 10.00,-15.00 10.00,-15.00"/>
+ <node id="sc2" x="10.00" y="-20.00" type="unregulated" shape="10.00,-20.00 10.00,-20.00 10.00,-20.00 10.00,-20.00"/>
+ <node id="sc3" x="10.00" y="-25.00" type="unregulated" shape="10.00,-25.00 10.00,-25.00 10.00,-25.00 10.00,-25.00"/>
+ <node id="sc4" x="10.00" y="-60.00" type="unregulated" shape="10.00,-60.00 10.00,-60.00 10.00,-60.00 10.00,-60.00"/>
+
+ <node id="cs1" x="-10.00" y="-15.00" type="unregulated" shape="-10.00,-15.00 -10.00,-15.00 -10.00,-15.00 -10.00,-15.00"/>
+ <node id="cs2" x="-10.00" y="-20.00" type="unregulated" shape="-10.00,-20.00 -10.00,-20.00 -10.00,-20.00 -10.00,-20.00"/>
+ <node id="cs3" x="-10.00" y="-25.00" type="unregulated" shape="-10.00,-25.00 -10.00,-25.00 -10.00,-25.00 -10.00,-25.00"/>
+ <node id="cs4" x="-10.00" y="-60.00" type="unregulated" shape="-10.0,-60.00 -10.0,-60.00 -10.0,-60.00 -10.0,-60.00"/>
+
+ <node id="C" x="0.0" y="0.0" type="priority"/>
+ <node id="E" x="250.00" y="0.00" type="unregulated"/>
+ <node id="N" x="0.00" y="200.00" type="unregulated"/>
+ <node id="S" x="0.00" y="-200.00" type="unregulated"/>
+ <node id="W" x="-250.00" y="0.00" type="unregulated"/>
+
+ <node id="W1" x="-500.00" y="0.00" type="unregulated"/>
+ <node id="N1" x="-250.00" y="60.00" type="unregulated"/>
+ <node id="S1" x="-250.00" y="-60.00" type="unregulated"/>
+
+
+<!--  <node id="CP" x="0.00" y="0.00" type="unregulated"/>
+ <node id="EP" x="100.00" y="0.00" type="unregulated"/>
+ <node id="NP" x="0.00" y="100.00" type="unregulated"/>
+ <node id="SP" x="0.00" y="-100.00" type="unregulated"/>
+ <node id="WP" x="-100.00" y="0.00" type="unregulated"/>
+
+
+ <node id="W1" x="-500.00" y="0.00" type="unregulated"/>
+ <node id="N1" x="-250.00" y="50.00" type="unregulated"/>
+ <node id="S1" x="-250.00" y="-50.00" type="unregulated"/> -->
+
+</nodes>

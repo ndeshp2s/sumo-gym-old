@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <input>
+        <net-file value="pedestrians.net.xml"/>
+<!--         <route-files value="pedestrians.rou.xml"/>
+ -->        
+        <route-files value="pedestrians.rou.xml, pedestrians_n1w_s1w.trip.xml"/>
+        
+ 		<gui-settings-file value="intersection.settings.xml"/>
+    </input>
+    <time>
+ 		<step-length value="0.1"/>
+    </time>
+</configuration>

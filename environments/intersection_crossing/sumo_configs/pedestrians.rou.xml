@@ -1,0 +1,148 @@
+<routes>
+
+    <!-- Route distribution -->
+<!--     <routeDistribution id="routeDist0">
+        <route id="route0" edges="4to5 5to2" probability="1.0"/>
+    </routeDistribution> -->
+
+<!--     <routeDistribution id="routeDist1">
+        <route id="route1" edges="2to5 5to4" probability="1.0"/>
+    </routeDistribution> -->
+
+	<!-- Vehicle type distribution -->
+<!--     <vTypeDistribution id="typeDist0">
+        <vType id="vType1" vClass="passenger" guiShape="passenger/sedan" color="1,1,0" speedDev="0.1" probability="1.0"/>
+    </vTypeDistribution> -->
+
+ 	<!-- Traffic Flow -->
+<!--    <flow id="flow0" begin="0" type="typeDist0" route="routeDist0" departSpeed="random" departLane="0" probability="1"/> 
+	<flow id="flow1" begin="0" type="typeDist0" route="routeDist1" departSpeed="random" departLane="0" probability="1.0"/> 
+	<flow id="flow2" begin="0" type="typeDist0" route="routeDist0" departSpeed="random" departLane="1" probability="1.0"/> 
+	<flow id="flow3" begin="0" type="typeDist0" route="routeDist1" departSpeed="random" departLane="1" probability="1.0"/> 
+	<flow id="flow4" begin="0" type="typeDist0" route="routeDist0" departSpeed="random" departLane="2" probability="1.0"/> 
+	<flow id="flow5" begin="0" type="typeDist0" route="routeDist1" departSpeed="random" departLane="2" probability="1.0"/>  -->
+
+	<!-- Ego car -->
+<!-- 	<route id="routeEgo" edges="WC CN"/>
+	<vType id="vType0" vClass="passenger" guiShape="passenger/sedan" color="1,0,0" maxSpeed="10.0" minGap="0.1"/> -->
+<!--     <person id="person0" depart="1">
+        <walk edges="CW WC SC" departPos="random"/>
+    </person> -->
+
+<!--     <person id="ped0" depart="1.00" departPos="40.0" >
+        <walk from="WC_p" to="WC_p" arrivalPos="0.0"/>
+    </person> -->
+<!--     <person id="p10" depart="4.00">
+        <walk from="CW" to="CE"/>
+    </person> -->
+
+<!--     <vType id="vType1" vClass="pedestrian" maxSpeed="0.5"/>
+
+    <person id="person0" depart="1">
+        <walk from="WC1" to="WC1" departPos="80" arrivalPos="55"/>
+    </person>  -->
+
+<!--     <vType id="vType1" vClass="pedestrian" maxSpeed="0.01"/> 
+    <person id="ped0" type="vType1" depart="0.00" departPos="40.0"> 
+        <walk from="WC" to="WC" arrivalPos="0.0" /> 
+    </person> -->
+<!--     <vType id="vType1" vClass="pedestrian" maxSpeed="0.01"/> 
+    <person id="ped0" type="vType1" depart="0.00" departPos="40.0"> 
+        <walk from="WC" to="WC" arrivalPos="0.0" duration="47.50" /> 
+    </person> -->
+
+<!--     <person id="ped0" depart="0.00" departPos="40.0" > 
+        <walk from="WPCP" to="WPCP" arrivalPos="0.0" /> 
+    </person> -->
+
+
+
+
+
+
+    <!-- Ego car -->
+    <route id="routeEgo" edges="W1W CN"/>
+    <vType id="vType0" vClass="passenger" guiShape="passenger/sedan" color="1,0,0" maxSpeed="10.0" minGap="0.1"/>
+<!--     <vType accel="1.0" decel="5.0" id="Car" length="2.0" maxSpeed="100.0" sigma="0.0" />
+    <route id="routeEgo" edges="W1W WC"/>
+    <vehicle depart="1" id="veh0" route="routeEgo" type="Car" /> -->
+
+
+    <!-- Pedestrians -->
+<!--     <person id="ped0" depart="0.00" departPos="0.0" > 
+        <walk from="WPCP" to="WPCP" arrivalPos="70.0" /> 
+    </person>
+
+    <person id="ped1" depart="3.00" departPos="40.0" > 
+        <walk from="WW1" to="WW1" arrivalPos="0.0" /> 
+    </person>
+
+    <person id="ped2" depart="3.00" departPos="40.0" > 
+        <walk from="W1W" to="W1W" arrivalPos="100.0" /> 
+    </person>
+
+    <person id="ped3" depart="4.00" departPos="90.0" > 
+        <walk from="WW1" to="WW1" arrivalPos="40.0" /> 
+    </person>
+
+    <person id="ped4" depart="4.00" departPos="20.0" > 
+        <walk from="WW1" to="WC" arrivalPos="20.0" /> 
+    </person>
+
+   <person id="ped5" depart="5.00" departPos="240.0" > 
+        <walk from="W1W" to="CW" arrivalPos="200.0" /> 
+    </person>
+
+    <person id="ped6" depart="7.00" departPos="247.0" > 
+        <stop lane="W1W" duration="22" startPos="249.0" actType="singing"/>
+        <walk from="W1W" to="CW" arrivalPos="200.0" /> 
+    </person>
+
+    <person id="ped7" depart="8.00" departPos="249.0" > 
+        <stop lane="W1W" duration="22" startPos="249.0" actType="singing"/>
+        <walk from="W1W" to="CW" arrivalPos="200.0" /> 
+    </person>
+
+    <person id="ped8" depart="11.00" departPos="0.0" > 
+        <walk from="WC" to="WC" arrivalPos="90.0" /> 
+    </person>
+
+     <person id="ped9" depart="30.00" departPos="10.0" > 
+        <walk from="CW" to="CW" arrivalPos="80.0" /> 
+    </person>
+
+    <person id="ped10" depart="32.00" departPos="80.0" > 
+        <walk from="NC" to="CS" arrivalPos="20.0" /> 
+    </person>
+
+    <person id="ped11" depart="34.00" departPos="90.0" > 
+        <walk from="WC" to="WC" arrivalPos="0.0" /> 
+    </person>
+
+    <person id="ped12" depart="37.00" departPos="40.0" > 
+        <walk from="WC" to="CE" arrivalPos="0.0" /> 
+    </person>
+
+    <person id="ped13" depart="39.00" departPos="40.0" > 
+        <walk from="CN" to="NC" arrivalPos="0.0" /> 
+    </person>
+
+    <person id="ped14" depart="43.00" departPos="40.0" > 
+        <walk from="CN" to="CN" arrivalPos="0.0" /> 
+    </person>
+
+    <person id="ped15" depart="44.00" departPos="40.0" > 
+        <walk from="NC" to="NC" arrivalPos="0.0" /> 
+    </person>
+
+    <person id="ped16" depart="46.00" departPos="40.0" > 
+        <walk from="NC" to="NC" arrivalPos="0.0" /> 
+    </person>
+
+    <person id="ped17" depart="46.00" departPos="40.0" > 
+        <walk from="CN" to="CN" arrivalPos="0.0" /> 
+    </person> -->
+
+
+
+</routes>

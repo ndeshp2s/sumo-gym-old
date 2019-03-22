@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+
+<!--  <edge id="WPC" from="WP" to="C" numLanes="1" speed="5.00">
+   <lane index="0" allow="pedestrian" width="7.00"/>
+ </edge> -->
+ <!-- <edge id="cne" from="c" to="ne" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cse" from="c" to="se" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="csw" from="c" to="sw" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cnw" from="c" to="nw" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+
+
+ <edge id="nwcw1" from="nw" to="cw1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cw1cw2" from="cw1" to="cw2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cw2cw3" from="cw2" to="cw3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cw3cw4" from="cw3" to="cw4" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+ <edge id="swwc1" from="sw" to="wc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="wc1wc2" from="wc1" to="wc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="wc2wc3" from="wc2" to="wc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="wc3wc4" from="wc3" to="wc4" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+ <edge id="cw1wc1" from="cw1" to="wc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cw1wc2" from="cw1" to="wc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="cw1wc3" from="cw1" to="wc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+
+ <edge id="cw2wc1" from="cw2" to="wc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="cw2wc2" from="cw2" to="wc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cw2wc3" from="cw2" to="wc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+ <edge id="cw3wc1" from="cw3" to="wc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="cw3wc2" from="cw3" to="wc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cw3wc3" from="cw3" to="wc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/> 
+
+
+
+
+ <edge id="neec1" from="ne" to="ec1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="ec1ec2" from="ec1" to="ec2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="ec2ec3" from="ec2" to="ec3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="ec3ec4" from="ec3" to="ec4" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/> 
+
+ <edge id="sece1" from="se" to="ce1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="ce1ce2" from="ce1" to="ce2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="ce2ce3" from="ce2" to="ce3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="ce3ce4" from="ce3" to="ce4" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+
+ <edge id="ce1ec1" from="ce1" to="ec1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="ce1ec2" from="ce1" to="ec2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="ce1ec3" from="ce1" to="ec3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+ <edge id="ce2ec1" from="ce2" to="ec1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="ce2ec2" from="ce2" to="ec2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="ce2ec3" from="ce2" to="ec3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+ <edge id="ce3ec1" from="ce3" to="ec1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="ce3ec2" from="ce3" to="ec2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="ce3ec3" from="ce3" to="ec3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+
+
+
+ <edge id="sesc1" from="se" to="sc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="sc1sc2" from="sc1" to="sc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="sc2sc3" from="sc2" to="sc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="sc3sc4" from="sc3" to="sc4" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/> 
+
+ <edge id="swcs1" from="sw" to="cs1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cs1cs2" from="cs1" to="cs2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cs2cs3" from="cs2" to="cs3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cs3cs4" from="cs3" to="cs4" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+ <edge id="cs1sc1" from="cs1" to="sc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cs1sc2" from="cs1" to="sc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="cs1sc3" from="cs1" to="sc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+ <edge id="cs2sc1" from="cs2" to="sc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cs2sc2" from="cs2" to="sc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="cs2sc3" from="cs2" to="sc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+ <edge id="cs3sc1" from="cs3" to="sc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cs3sc2" from="cs3" to="sc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="cs3sc3" from="cs3" to="sc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+
+ 
+
+ <edge id="nwnc1" from="nw" to="nc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="nc1nc2" from="nc1" to="nc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="nc2nc3" from="nc2" to="nc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="nc3nc4" from="nc3" to="nc4" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/> 
+
+ <edge id="necn1" from="ne" to="cn1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cn1cn2" from="cn1" to="cn2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cn2cn3" from="cn2" to="cn3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cn3cn4" from="cn3" to="cn4" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/> 
+
+ <edge id="cn1nc1" from="cn1" to="nc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cn1nc2" from="cn1" to="nc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="cn1nc3" from="cn1" to="nc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+ <edge id="cn2nc1" from="cn2" to="nc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cn2nc2" from="cn2" to="nc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="cn2nc3" from="cn2" to="nc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+
+ <edge id="cn3nc1" from="cn3" to="nc1" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>
+ <edge id="cn3nc2" from="cn3" to="nc2" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/>  
+ <edge id="cn3nc3" from="cn3" to="nc3" priority="-1" numLanes="1" speed="5" allow="pedestrian" width="1.00" spreadType="center"/> -->
+
+
+
+
+
+
+<!--  <edge id="EC" from="E" to="C" numLanes="4" speed="13.89">
+   <lane index="0" allow="pedestrian" width="4.0"/>
+   <lane index="1" allow="passenger" width="7.00" />
+   <lane index="2" allow="pedestrian" width="0.00"/>
+   <lane index="3" allow="pedestrian" width="0.00" />
+ </edge> -->
+
+ <!--  <edge id="EC" from="E" to="C" numLanes="2" speed="13.89">
+   <lane index="0" allow="pedestrian" width="4.0"/>
+   <lane index="1" allow="passenger" width="7.00" />
+ </edge> -->
+
+<!--   <edge id="CE" from="C" to="E" numLanes="4" speed="13.89">
+   <lane index="0" allow="pedestrian" width="4.00"/>
+   <lane index="1" allow="passenger" width="7.00" />
+   <lane index="2" allow="pedestrian" width="1.00"/>
+   <lane index="3" allow="pedestrian" width="1.00" />
+ </edge> -->
+
+ 
+ <edge id="CE" from="C" to="E" numLanes="2" speed="10.00">
+   <lane index="0" allow="pedestrian" spreadType="center" width="5.00"/>
+   <lane index="1" allow="passenger" spreadType="center" width="7.00"/>
+ </edge>
+
+ <edge id="EC" from="E" to="C" numLanes="2" speed="10.00">
+   <lane index="0" allow="pedestrian" spreadType="center" width="5.00"/>
+   <lane index="1" allow="passenger" spreadType="center" width="7.00"/>
+ </edge>
+
+ <edge id="WC" from="W" to="C" numLanes="1" speed="10.00">
+<!--    <lane index="0" allow="pedestrian" spreadType="center" width="5.00"/>
+ -->   <lane index="0" allow="passenger" spreadType="center" width="7.00"/>
+ </edge>
+
+ <edge id="CW" from="C" to="W" numLanes="1" speed="10.00">
+<!--    <lane index="0" allow="pedestrian" spreadType="center" width="5.00"/>
+ -->   <lane index="0" allow="passenger" spreadType="center" width="7.00"/>
+ </edge>
+
+ <edge id="NC" from="N" to="C" numLanes="2" speed="10.00">
+   <lane index="0" allow="pedestrian" spreadType="center" width="5.00"/>
+   <lane index="1" allow="passenger" spreadType="center" width="7.00"/>
+ </edge>
+ 
+ <edge id="CN" from="C" to="N" numLanes="2" speed="10.00">
+   <lane index="0" allow="pedestrian" spreadType="center" width="5.00"/>
+   <lane index="1" allow="passenger" spreadType="center" width="7.00"/>
+ </edge>
+
+ <edge id="SC" from="S" to="C" numLanes="2" speed="10.00">
+   <lane index="0" allow="pedestrian" spreadType="center" width="5.00"/>
+   <lane index="1" allow="passenger" spreadType="center" width="7.00"/>
+
+ </edge>
+ <edge id="CS" from="C" to="S" numLanes="2" speed="10.00">
+   <lane index="0" allow="pedestrian" spreadType="center" width="5.00"/>
+   <lane index="1" allow="passenger" spreadType="center" width="7.00"/>
+ </edge>
+
+
+ <edge id="N1W" from="N1" to="W" priority="1" numLanes="1" allow="pedestrian" speed="1.0" spreadType="center" width="3.00"/>
+ <edge id="S1W" from="S1" to="W" priority="1" numLanes="1" allow="pedestrian" speed="1.0" spreadType="center" width="3.00"/>
+
+  <edge id="WW1" from="W" to="W1" numLanes="1" speed="10.00">
+<!--    <lane index="0" allow="pedestrian" spreadType="center" width="5.00" />
+ -->   <lane index="0" allow="all" spreadType="center" width="7.00" />
+ </edge>
+ <edge id="W1W" from="W1" to="W" numLanes="1" speed="10.00">
+<!--    <lane index="0" allow="pedestrian" spreadType="center" width="5.00"/>
+ -->   <lane index="0" allow="all" spreadType="center" width="7.00"/>
+ </edge>
+
+<!--  <edge id="WW1" from="W" to="W1" numLanes="2" speed="10.00">
+   <lane index="0" allow="pedestrian" width="10.00" spreadType="center"/>
+   <lane index="1" allow="passenger" width="7.00"  spreadType="center"/>
+ </edge>
+ <edge id="W1W" from="W1" to="W" numLanes="2" speed="10.00">
+   <lane index="0" allow="pedestrian" width="10.00" spreadType="center"/>
+   <lane index="1" allow="passenger" width="7.00"  spreadType="center"/>
+ </edge> -->
+
+
+<!--   <edge id="CPWP" from="CP" to="WP" numLanes="1" speed="5">
+   <lane index="0" allow="all" width="7.00" spreadType="center" />
+ </edge>
+
+ <edge id="WPCP" from="WP" to="CP" numLanes="1" speed="5">
+   <lane index="0" allow="all" width="4.00" spreadType="center" />
+ </edge>
+
+
+ <edge id="N1W1" from="N1" to="W1" priority="1" numLanes="1" allow="pedestrian" speed="5.00" spreadType="center" width="3.00"/>
+ <edge id="S1W1" from="S1" to="W1" priority="1" numLanes="1" allow="pedestrian" speed="5.00" spreadType="center" width="3.00"/> -->
+
+<!--  <edge id="CE" from="C" to="E" numLanes="1" speed="13.89">
+   <lane index="0" allow="all" width="7.00" />
+ </edge>
+
+ <edge id="EC" from="E" to="C" numLanes="1" speed="13.89">
+   <lane index="0" allow="all" width="7.00" />
+ </edge>
+
+ <edge id="WC" from="W" to="C" numLanes="1" speed="1.00">
+   <lane index="0" allow="all" width="7.00" />
+ </edge>
+
+ <edge id="CW" from="C" to="W" numLanes="1" speed="13.89">
+   <lane index="0" allow="all" width="7.00" />
+ </edge>
+
+<edge id="NC" from="N" to="C" numLanes="1" speed="13.89">
+   <lane index="0" allow="all" width="7.00" />
+ </edge>
+ 
+ <edge id="CN" from="C" to="N" numLanes="1" speed="13.89">
+   <lane index="0" allow="all" width="7.00" />
+ </edge>
+
+ <edge id="SC" from="S" to="C" numLanes="1" speed="13.89">
+   <lane index="0" allow="all" width="7.00" />
+
+ </edge>
+ <edge id="CS" from="C" to="S" numLanes="1" speed="13.89">
+   <lane index="0" allow="all" width="7.00" />
+ </edge> -->
+
+ 
+
+
+<!-- <edge id="EC_p" from="E" to="C" numLanes="2" speed="13.89">
+   <lane index="0" allow="pedestrian" width="4.00"/>
+   <lane index="1" allow="all" width="7.00" />
+ </edge>
+
+ <edge id="WC_p" from="W" to="C" numLanes="2" speed="13.89">
+   <lane index="0" allow="pedestrian" width="4.00"/>
+   <lane index="1" allow="all" width="7.00" />
+ </edge>
+
+ <edge id="CW_p" from="C" to="W" numLanes="2" speed="13.89">
+   <lane index="0" allow="pedestrian" width="4.00"/>
+   <lane index="1" allow="all" width="7.00" />
+ </edge>
+
+ <edge id="NC_p" from="N" to="C" numLanes="2" speed="13.89">
+   <lane index="0" allow="pedestrian" width="4.00"/>
+   <lane index="1" allow="all" width="7.00" />
+ </edge>
+ 
+ <edge id="CN_p" from="C" to="N" numLanes="2" speed="13.89">
+   <lane index="0" allow="pedestrian" width="4.00"/>
+   <lane index="1" allow="all" width="7.00" />
+ </edge>
+
+  <edge id="CS_p" from="C" to="S" numLanes="2" speed="13.89">
+   <lane index="0" allow="pedestrian" width="4.00"/>
+   <lane index="1" allow="all" width="7.00" />
+ </edge>
+
+ <edge id="SC_p" from="S" to="C" numLanes="2" speed="13.89">
+   <lane index="0" allow="pedestrian" width="4.00"/>
+   <lane index="1" allow="all" width="7.00" />
+
+ </edge>
+ -->
+
+ 
+
+</edges>
+

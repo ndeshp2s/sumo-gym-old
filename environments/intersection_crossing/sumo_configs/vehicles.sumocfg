@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <input>
+        <net-file value="vehicles.net.xml"/>
+        <route-files value="vehicles.rou.xml"/>
+        <gui-settings-file value="intersection.settings.xml"/>
+    </input>
+    <time>
+ 		<step-length value="0.05"/>
+    </time>
+</configuration>

@@ -1,0 +1,12 @@
+<routes>
+    <!-- Ego car -->
+    <route id="routeEgo" edges="CE CE"/>
+    <vType id="vType0" decel="10.0" vClass="passenger" guiShape="passenger/sedan" color="1,0,0" maxSpeed="10.0" minGap="0.1"/>
+
+
+    <!-- Stationary pedestrian -->
+    <person id="ped0" depart="0.00" departPos="200.0">
+    	<stop lane="CE_0" duration="10000" startPos="200.0"/>
+    </person>
+
+</routes>

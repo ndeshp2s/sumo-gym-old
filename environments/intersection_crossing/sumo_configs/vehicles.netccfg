@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <input>
+        <node-files value="vehicles.nod.xml"/>
+        <edge-files value="vehicles.edg.xml"/>
+<!--         <connection-files value="pedestrian.con.xml"/> -->
+    </input>
+
+    <output>
+        <output-file value="vehicles.net.xml"/>
+    </output>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</configuration>

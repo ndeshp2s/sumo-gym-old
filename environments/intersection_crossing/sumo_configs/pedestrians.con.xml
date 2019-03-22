@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections version="0.13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <crossing node="C" edges="CE EC" width="6" priority="1"/>
+    <crossing node="C" edges="CW WC" width="6" priority="1"/>
+    <crossing node="C" edges="CN NC" width="6" priority="1"/>
+    <crossing node="C" edges="CS SC" width="6" priority="1"/>
+<!--     <crossing node="W" edges="WW1 W1W" width="5" priority="1"/> -->
+    <crossing node="W" edges="CW WC" width="6" priority="1"/>
+</connections>
